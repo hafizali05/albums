@@ -7,7 +7,7 @@ import {AppRegistry} from 'react-native';
 import Header from './src/components/header'
 //create a Component
 
-const App = () => <Header />;
+const App = () => <Header headerText = { 'albums' } />;
 
 
 //Render it on the device
