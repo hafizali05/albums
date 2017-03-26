@@ -2,12 +2,22 @@
 
 import React from 'react';
 
-import {AppRegistry} from 'react-native';
+import { AppRegistry, View } from 'react-native';
 
-import Header from './src/components/header'
+import Header from './src/components/header';
+
+import AlbumList from './src/components/albumList';
+
+
 //create a Component
 
-const App = () => <Header headerText = { 'albums' } />;
+const App = () => (
+
+        <View>
+            <Header headerText = { 'albums' } />
+            <AlbumList />
+        </View>
+)
 
 
 //Render it on the device

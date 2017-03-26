@@ -31,7 +31,8 @@ const styles = {
     backgroundColor: '#F8F8F8'
   },
   textStyle: {
-    fontSize: 20
+    fontSize: 20,
+
   }
 }
 //make the Component available to other parts of the applications
